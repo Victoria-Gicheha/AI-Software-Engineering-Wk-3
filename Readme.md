@@ -1,21 +1,22 @@
-## 🧠 AI & Machine Learning Practical Tasks
-# 📘 Overview
+# 🧠 AI & Machine Learning Practical Tasks
+## 📘 Overview
 
 This project demonstrates hands-on applications of Machine Learning (ML), Deep Learning (DL), 
 and Natural Language Processing (NLP) using Scikit-learn, TensorFlow, and spaCy.
 Each task explores a key area of AI — from classical algorithms to deep neural networks and ethical considerations.
 
 ## Links
-📄 [View the full report (PDF)]   https://drive.google.com/file/d/1TXUU36VT5A758YCBpCwEEut6zYG-3FVD/view?usp=sharing
-    [Streamlit Live Demo Link]     http://localhost:8501/
+[View the full report (PDF)]   https://drive.google.com/file/d/1TXUU36VT5A758YCBpCwEEut6zYG-3FVD/view?usp=sharing
+
+[Streamlit Live Demo Link]     http://localhost:8501/
 
 # 🚀 Tasks Breakdown
 # 🧩 Task 1: Classical ML with Scikit-learn
 
 Dataset: Iris Species
 Goal: Train a Decision Tree Classifier to predict iris flower species.
-# Key Steps:
 
+# Key Steps:
 * Preprocessed the dataset (handled missing values, label encoding).
 * Trained a DecisionTreeClassifier.
 * Evaluated using accuracy, precision, and recall.
@@ -28,6 +29,7 @@ Goal: Train a Decision Tree Classifier to predict iris flower species.
 
 Dataset: MNIST Handwritten Digits
 Goal: Build a Convolutional Neural Network (CNN) to classify digits (0–9).
+
 # Achievements:
 * Preprocessed image data and normalized pixel values.
 * Built and trained a CNN using Conv2D, MaxPooling2D, and Dense layers.
@@ -41,8 +43,8 @@ Goal: Build a Convolutional Neural Network (CNN) to classify digits (0–9).
 
 Dataset: Sample Amazon Product Reviews
 Goal: Extract named entities (brands/products) and perform sentiment analysis.
-# Key Features:
 
+# Key Features:
 * Used spaCy’s Named Entity Recognition (NER) for brand detection.
 * Applied a rule-based sentiment analyzer for positive/negative classification.
 * Displayed results with extracted entities and sentiment labels.
@@ -52,20 +54,17 @@ Goal: Extract named entities (brands/products) and perform sentiment analysis.
 
 # ⚖️ Part 3: Ethics & Optimization
 
-- Bias in Models:
+Bias in Models:
 
 * MNIST: Style and cultural bias due to uniform handwriting samples.
 * Amazon Reviews: Linguistic bias in sentiment detection.
 
-- Mitigation:
+Mitigation:
 
 * TensorFlow Fairness Indicators to visualize fairness across subgroups.
 * spaCy rule-based tuning to handle context and reduce bias.
 
-- Debugging Challenge: Fixed TensorFlow errors like input dimension mismatches and incorrect loss functions.
-
-📄 File: ethics_and_debugging_notes.txt
-
+Debugging Challenge: Fixed TensorFlow errors like input dimension mismatches and incorrect loss functions.
 
 # 🧩 Summary of Tools Used
 Category	Tools/Libraries	Purpose
